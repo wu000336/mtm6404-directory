@@ -29,14 +29,14 @@ function total(clients) {
 }
 
 // 4. info() function - uses find() method to find client
-function info(index) {
+function info(clients, index) {
   return clients.find((client) => {
     return client.index === index
   })
 }
 
 // 5. search() function - uses filter() method to search clients
-function search(query) {
+function search(clients, query) {
   return clients.filter((client) => {
     return client.name.toLowerCase().includes(query.toLowerCase())
   })
