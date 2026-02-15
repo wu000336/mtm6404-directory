@@ -28,7 +28,7 @@ function total(clients) {
   }, 0)
 }
 
-// 4. info() function - uses find() method to find client
+// 4. info() function - uses find() method to find the client
 function info(clients, index) {
   return clients.find((client) => {
     return client.index === index
